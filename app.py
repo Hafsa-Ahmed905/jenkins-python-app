@@ -1,5 +1,5 @@
-def main():
-    print("Hello Jenkins, code updated automatically!")
 
-if __name__ == "__main__":
-    main()
+
+print("Hello, Jenkins!")
+unused_variable = 123     
+x = "1" + 2              
