@@ -1,8 +1,6 @@
-# app.py
+def greet():
+    print("Hello World")  # okay
 
-print("Hello, Jenkins!")
+greet()
 
-unused_variable = 123        # Pylint warning: unused variable
-x = "1" + 2                  # Mypy type warning: incompatible types
-def f():
-    pass                      # Flake8 may complain if style rules broken
+unused_variable = 123  # This will trigger a Pylint/Flake8 warning
